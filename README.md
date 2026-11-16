@@ -1,4 +1,4 @@
-# AXIS-Z · Biología IB
+# BIOLOGY DESTROYER · Biología IB
 
 Herramientas gratuitas para preparar los exámenes de Biología del IB (programa con primera evaluación en 2025, NM y NS, español e inglés).
 
