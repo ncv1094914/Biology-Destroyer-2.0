@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AXIS-Z · Biología IB</title>
+<meta name="description" content="Herramientas gratuitas para preparar los exámenes de Biología del IB: trainer completo y corrector de respuestas escritas.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230B7A63'/%3E%3Ctext x='32' y='43' font-size='30' font-family='Arial' font-weight='900' fill='%23fff' text-anchor='middle'%3EZ%3C/text%3E%3C/svg%3E">
+<style>
+:root{--bg:#EEF4F1;--surface:#fff;--ink:#11211C;--muted:#56685F;--line:#D5E2DB;--brand:#0B7A63;--pop:#FFC21A;--a:#2E63F0;--d:#E0315C}
+@media (prefers-color-scheme:dark){:root{--bg:#0B1513;--surface:#13221E;--ink:#E7F2EC;--muted:#99B0A6;--line:#263B34;--brand:#23B48F;--a:#6C93FF;--d:#FF5F85}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:500 17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:40px 18px 30px}
+.eyebrow{font-size:13px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(32px,6vw,52px);line-height:1.05;margin:8px 0 12px;letter-spacing:-.02em}
+.lead{font-size:19px;color:var(--muted);font-weight:600;max-width:640px}
+.lang{float:right;border:2px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 14px;font:800 14px inherit;color:var(--ink);cursor:pointer}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px}@media(max-width:720px){.grid{grid-template-columns:1fr}}
+a.tool{display:block;text-decoration:none;color:inherit;background:var(--surface);border:2px solid var(--line);border-top:8px solid var(--c);border-radius:20px;padding:22px;box-shadow:0 2px 0 rgba(17,33,28,.08),0 12px 26px -14px rgba(17,33,28,.3);transition:transform .15s}
+a.tool:hover{transform:translateY(-3px);border-color:var(--c)}
+.tool h2{margin:6px 0 6px;font-size:26px}.tool p{margin:0 0 12px;color:var(--muted);font-weight:600}
+.tool ul{margin:0 0 16px;padding-left:20px;font-weight:600}.tool li{margin:3px 0}
+.go{display:inline-block;background:var(--c);color:#fff;font-weight:900;border-radius:12px;padding:10px 16px}
+.how{margin-top:26px;background:var(--surface);border:2px solid var(--line);border-radius:20px;padding:20px}
+.how ol{margin:6px 0 0;padding-left:22px;font-weight:600}
+footer{font-size:13px;color:var(--muted);text-align:center;padding:10px 18px 40px;font-weight:600;max-width:820px;margin:0 auto}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <button class="lang" id="lang">EN</button>
+  <div class="eyebrow" data-es="Biología IB · programa 2025 · NM y NS" data-en="IB Biology · 2025 syllabus · SL and HL"></div>
+  <h1>AXIS-Z</h1>
+  <p class="lead" data-es="Dos herramientas gratuitas para preparar los exámenes de Biología del IB. Funcionan en el navegador, en computadora, Chromebook y celular, sin cuentas ni instalación." data-en="Two free tools to prepare for the IB Biology exams. They run in the browser on computers, Chromebooks and phones, with no accounts and nothing to install."></p>
+  <div class="grid">
+    <a class="tool" href="artemis/" style="--c:var(--a)">
+      <div class="eyebrow" data-es="Para estudiar y practicar" data-en="Study and practise"></div>
+      <h2>Artemis</h2>
+      <p data-es="El trainer completo de todo el temario." data-en="The complete trainer for the whole syllabus."></p>
+      <ul>
+        <li data-es="478 preguntas de opción múltiple (Prueba 1A), con datos y gráficos" data-en="478 multiple-choice questions (Paper 1A), with data and graphs"></li>
+        <li data-es="118 preguntas escritas con esquema y respuesta modelo" data-en="118 written questions with markscheme and model answer"></li>
+        <li data-es="Tarjetas con repaso espaciado y simulacros con nota estimada" data-en="Flashcards with spaced review and mock papers with an estimated grade"></li>
+        <li data-es="Gimnasio de cálculos, atlas de diagramas y juegos" data-en="Calculation gym, diagram atlas and games"></li>
+      </ul>
+      <span class="go" data-es="Abrir Artemis →" data-en="Open Artemis →"></span>
+    </a>
+    <a class="tool" href="examinador/" style="--c:var(--d)">
+      <div class="eyebrow" data-es="Para escribir mejores respuestas" data-en="Write better answers"></div>
+      <h2 data-es="Examinador" data-en="Examiner"></h2>
+      <p data-es="El corrector de la Prueba 1B y la Prueba 2." data-en="The marker for Paper 1B and Paper 2."></p>
+      <ul>
+        <li data-es="Escribe tu respuesta y compárala al instante con el esquema" data-en="Write your answer and check it instantly against the markscheme"></li>
+        <li data-es="Avisos de término de instrucción, número de ideas, datos y unidades" data-en="Feedback on command terms, number of ideas, data and units"></li>
+        <li data-es="Mensaje listo para una corrección completa con IA" data-en="Ready-made prompt for a full AI examiner correction"></li>
+        <li data-es="Funciona con tus propias preguntas" data-en="Works with your own questions too"></li>
+      </ul>
+      <span class="go" data-es="Abrir el Examinador →" data-en="Open the Examiner →"></span>
+    </a>
+  </div>
+  <div class="how">
+    <div class="eyebrow" data-es="Cómo usarlas juntas" data-en="How to use them together"></div>
+    <ol>
+      <li data-es="Aprende y repasa cada tema en Artemis (tarjetas y preguntas)." data-en="Learn and review each topic in Artemis (cards and questions)."></li>
+      <li data-es="Practica las respuestas escritas en el Examinador y corrígete." data-en="Practise written answers in the Examiner and mark yourself."></li>
+      <li data-es="Antes del examen, haz los simulacros completos de Artemis." data-en="Before the exam, sit the full mock papers in Artemis."></li>
+    </ol>
+  </div>
+</div>
+<footer data-es="El progreso se guarda solo en tu navegador. Recursos de estudio independientes: «IB» e «International Baccalaureate» son marcas de la Organización del Bachillerato Internacional, que no ha producido, avalado ni se ha afiliado a estas herramientas." data-en="Progress is saved in your browser only. Independent study resources: “IB” and “International Baccalaureate” are trademarks of the International Baccalaureate Organization, which has not produced, endorsed or affiliated itself with these tools."></footer>
+<script>
+let lang="es";try{lang=JSON.parse(localStorage.getItem("axisz.examinador.v1")||"{}").lang||(navigator.language||"es").slice(0,2)}catch(e){}
+if(lang!=="en")lang="es";
+function draw(){document.documentElement.lang=lang;document.querySelectorAll("[data-es]").forEach(el=>el.textContent=el.dataset[lang]);document.getElementById("lang").textContent=lang==="es"?"EN":"ES";}
+document.getElementById("lang").onclick=()=>{lang=lang==="es"?"en":"es";draw();};draw();
+</script>
+</body>
+</html>
